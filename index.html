@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Voice Calculator</h1>
+        <div class="calculator">
+            <div class="instructions">
+                <p>Try saying:</p>
+                <ul>
+                    <li>"five plus three times two"</li>
+                    <li>"sin thirty degrees" or "sine of thirty degrees"</li>
+                    <li>"cos sixty degrees" or "cosine of sixty degrees"</li>
+                    <li>"tan forty five degrees" or "tangent of forty five"</li>
+                    <li>"two pi times sin sixty degrees"</li>
+                </ul>
+            </div>
+            <div class="display">
+                <div id="expression" class="expression">Expression will appear here...</div>
+                <div id="result" class="result">Result will appear here...</div>
+            </div>
+            <button id="startButton" class="start-button">Start Listening</button>
+            <div id="status" class="status"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
