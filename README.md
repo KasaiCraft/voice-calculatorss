@@ -1,1 +1,1 @@
-# SmartMind-calculator
+# voice-calculatorss
